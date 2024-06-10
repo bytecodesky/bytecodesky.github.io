@@ -82,7 +82,10 @@ main > .tagline {
 	padding: 10px;
 }
 .icons-social img:hover {
+	background: rgba(12, 36, 97,1.0);
 	transform: scale(1.2);
+	box-shadow: 0 4px 8px rgba(87, 101, 116,1.0);
+	border-radius: 10%;
 }
 
 .devto {
