@@ -8,21 +8,21 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 8px; /* Ancho del scrollbar */
+    width: 8px;
   }
   
   ::-webkit-scrollbar-track {
-    background: #181825; /* Color de fondo del track (Base) */
+    background: #181825; 
     border-radius: 4px;
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #39394A; /* Color del pulgar (Surface2) */
+    background: #39394A; 
     border-radius: 4px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #94E2D5; /* Color del pulgar al pasar el mouse (Green) */
+    background: #94E2D5; 
   }
 
 .card {
@@ -115,7 +115,7 @@ body {
   }
   .project img {
     width: 100%;
-    height: auto;
+    height: 200px;
     border-radius: 8px;
     margin-bottom: 10px;
     transition: transform 0.3s ease;
