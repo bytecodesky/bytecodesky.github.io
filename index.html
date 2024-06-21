@@ -20,9 +20,17 @@
     <link rel="manifest" href="/icons/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("f_vuxm0tilVHDfNMM");
+        })();
+    </script>
     <title>Bytecodesky by Angel Barre</title>
+    <meta name="description" content="Desarrollador web freelance especializado en la creación de sitios web modernos y minimalistas. Próximamente ofreceré servicios de diseño web, desarrollo frontend y backend. ¡Mantente atento a las novedades!">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -63,8 +71,82 @@
                     </div>
                 </div>
             </section>
+            <section>
+                <div id="portfolio">
+                    <h2>Portafolio</h2>
+                    <div class="project">
+                      <a href="https://enlace-proyecto1.com" target="_blank">
+                        <img src="images/p1.gif" alt="Proyecto 1">
+                      </a>
+                      <h3>Título del Proyecto 1</h3>
+                      <p>Descripción breve del proyecto 1.</p>
+                    </a>
+                    </div>
+                  
+                    <div class="project">
+                      <a href="https://enlace-proyecto2.com" target="_blank">
+                        <img src="images/p2.gif" alt="Proyecto 2">
+                      </a>
+                      <h3>Título del Proyecto 2</h3>
+                      <p>Descripción breve del proyecto 2.</p>
+                    </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://enlace-proyecto2.com" target="_blank">
+                          <img src="images/p3.png" alt="Proyecto 2">
+                        </a>
+                        <h3>Título del Proyecto 3</h3>
+                        <p>Descripción breve del proyecto 3.</p>
+                      </a>
+                      </div>
+                    </div>
+            </section>
+            <section>
+                <div id="technologies">
+                    <h2>Tecnologías</h2>
+                  
+                    <div class="tech-group">
+                      <h3>Frontend</h3>
+                      <ul class="tech-list">
+                        <li><i class="fab fa-react"></i> React</li>
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS</li>
+                        <li><i class="fab fa-js-square"></i> JavaScript</li>
+                      </ul>
+                    </div>
+                  
+                    <div class="tech-group">
+                      <h3>Backend</h3>
+                      <ul class="tech-list">
+                        <li><i class="fab fa-python"></i> Python</li>
+                        <li><i class="fab fa-node-js"></i> Node.js</li>
+                        <li><i class="fas fa-database"></i> SQL</li>
+                        <li><i class="fab fa-php"></i> PHP</li>
+                      </ul>
+                    </div>
+                  </div>
+            </section>
+            <section>
+                <div id="contact">
+                    <h2>Contáctame</h2>
+                    <form id="contact-form">
+                      <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" required></textarea>
+                      </div>
+                      <button type="submit">Enviar</button>
+                    </form>
+                  </div>                  
+            </section>
     </main>
-    <footer>
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
