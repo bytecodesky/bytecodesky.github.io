@@ -34,7 +34,7 @@ body {
 }
 
 .container:hover .card-image {
-    transform: scale(1.1); /* Escala la imagen al pasar el cursor */
+    transform: scale(1.1); 
 }
 .card {
     display: flex;
