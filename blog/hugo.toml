@@ -1,4 +1,0 @@
-baseURL = 'https://www.bytecodesky.me/blog'
-languageCode = 'en-us'
-title = "Bytecodesky's Blog"
-theme = "hugo-theme-stack"
