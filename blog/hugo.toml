@@ -1,0 +1,4 @@
+baseURL = 'https://bytecodesky.github.io/'
+languageCode = 'en-us'
+title = "Bytecodesky's Blog"
+theme = "hugo-theme-stack"
