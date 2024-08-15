@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bytecodesky</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Bytecodesky</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>skynetoffc@gmail.com (Angel Barre)</managingEditor>
+    <webMaster>skynetoffc@gmail.com (Angel Barre)</webMaster>
+    <copyright>Bytecodesky | Angel Barre 2024</copyright>
+    <lastBuildDate>Thu, 15 Aug 2024 11:04:48 -0500</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>//localhost:1313/posts/test/</link>
+      <pubDate>Thu, 15 Aug 2024 11:04:48 -0500</pubDate>
+      <author>skynetoffc@gmail.com (Angel Barre)</author>
+      <guid>//localhost:1313/posts/test/</guid>
+      <description>Before reading this blog post, I highly recommend viewing the a blog written by my coworker titled Grab Your Chainsaw, We&amp;rsquo;re Going Hunting.</description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/posts/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>skynetoffc@gmail.com (Angel Barre)</author>
+      <guid>//localhost:1313/posts/about/</guid>
+      <description>Hola</description>
+      
+    </item>
+    
+  </channel>
+</rss>

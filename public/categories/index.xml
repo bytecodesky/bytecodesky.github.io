@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Bytecodesky</title>
+    <link>//localhost:1313/categories/</link>
+    <description>Recent content in Categories on Bytecodesky</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>skynetoffc@gmail.com (Angel Barre)</managingEditor>
+    <webMaster>skynetoffc@gmail.com (Angel Barre)</webMaster>
+    <copyright>Bytecodesky | Angel Barre 2024</copyright>
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
